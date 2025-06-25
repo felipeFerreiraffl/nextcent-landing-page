@@ -1,0 +1,71 @@
+:root {
+  --black: #263238;
+  --d-grey: #4d4d4d;
+  --grey: #717171;
+  --l-grey: #89939e;
+  --grey-blue: #abbed1;
+  --silver: #f5f7fa;
+  --white: #fff;
+  --primary: #28cb8b;
+  --secondary: #263238;
+  --info: #2194f3;
+  --shade1: #43a046;
+  --shade2: #388e3b;
+  --shade3: #237d31;
+  --shade4: #1b5e1f;
+  --shade5: #103e13;
+  --tint1: #66bb69;
+  --tint1: #81c784;
+  --tint1: #a5d6a7;
+  --tint1: #c8e6c9;
+  --tint1: #e8f5e9;
+  --warning: #fbc02d;
+  --error: #e53835;
+  --success: #2e7d31;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 22px 0;
+}
+
+.header > img {
+  width: 154px;
+  height: 24px;
+}
+
+.navegacao {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navegacao > a {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.btn-terciario {
+  color: var(--shade1);
+  padding: 10px 20px;
+}
+
+.btn-primario {
+  background-color: var(--shade1);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: var(--white);
+}
