@@ -214,29 +214,54 @@ body {
 }
 
 .community {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.community > .container-txt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-
-.community > .container-txt > h2 {
-  max-width: 542px;
+.community > h2 {
+  font-size: var(--headline2);
+  font-weight: 600;
+  color: var(--d-grey);
+  width: 40%;
   text-align: center;
 }
 
-.container-card {
-  width: 100%;
+.community > p {
+  font-size: var(--body2);
+  font-weight: 400;
+  color: var(--grey);
+  margin-top: 8px;
+}
+
+.member-cards {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.member-cards > .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.member-cards > .card > h3 {
+  font-size: var(--headline3);
+  color: var(--d-grey);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.member-cards > .card > p {
+  font-size: var(--body3);
+  color: gray;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
 }
 
 .second-content {
@@ -265,4 +290,60 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.business {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.business > .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.business > .title > h2 {
+  font-size: var(--headline2);
+  font-weight: 600;
+  color: var(--d-grey);
+  width: 80%;
+}
+
+.business > .title > h2 > span {
+  color: var(--shade1);
+}
+
+.business > .title > p {
+  font-size: var(--body2);
+  font-weight: 400;
+  color: var(--black);
+}
+
+.business-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 40px;
+}
+
+.business-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.business-card > div > h3 {
+  font-size: var(--headline3);
+  color: var(--d-grey);
+  font-weight: 700;
+}
+
+.business-card > div > p {
+  font-size: var(--body2);
+  font-weight: 400;
+  color: var(--grey);
 }
