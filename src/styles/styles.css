@@ -347,3 +347,34 @@ body {
   font-weight: 400;
   color: var(--grey);
 }
+
+.calender {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.calender > img {
+  width: 30%;
+}
+
+.calender > div {
+  width: 50%;
+}
+
+.calender > div > h2 {
+  font-size: var(--headline2);
+  font-weight: 600;
+  color: var(--d-grey);
+}
+
+.calender > div > p {
+  font-size: var(--body2);
+  font-weight: 400;
+  color: var(--grey);
+  margin-top: 16px;
+}
+
+.calender > div > button {
+  margin-top: 32px;
+}
