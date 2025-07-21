@@ -1,0 +1,154 @@
+@import url("./global.css");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 22px 0;
+  background-color: var(--color-neutral-silver);
+}
+
+.header img {
+  width: 154px;
+  height: 24px;
+}
+
+.header-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-nav ul li a {
+  color: var(--color-neutral-d-grey);
+  transition: 0.3s ease;
+}
+
+.header-nav ul li a:hover {
+  color: var(--color-primary-primary);
+}
+
+.header-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-btn-container button {
+  display: inline;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.header-btn-container .btn-login {
+  background-color: var(--color-neutral-silver);
+}
+
+.btn-login a {
+  color: var(--color-primary-primary);
+}
+
+.header-btn-container .btn-signUp {
+  background-color: var(--color-primary-primary);
+}
+
+.btn-signUp a {
+  color: var(--color-neutral-white);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 104px;
+  padding: 96px 0;
+  background-color: var(--color-neutral-silver);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 657px;
+}
+
+.hero-content h1 span {
+  color: var(--color-primary-primary);
+}
+
+.hero img {
+  width: 391px;
+  height: 407px;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 40px 0;
+}
+
+.clients-logos-container {
+  display: flex;
+  align-items: center;
+  gap: 136px;
+}
+
+.clients-logos-container img {
+  width: 48px;
+  aspect-ratio: 1 / 1;
+}
+
+.community {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.community-content {
+  display: flex;
+  align-items: center;
+  gap: 128px;
+}
+
+.community-content .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 32px;
+  max-width: 299px;
+}
+
+.community-content .content img {
+  width: 65px;
+  height: 56px;
+}
+
+.community-content .content h3 {
+  margin: 16px 0 8px 0;
+  font-weight: 700;
+}
+
+.unlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+}
+
+.unlock img {
+  width: 442px;
+  height: 433px;
+}
+
+.unlock .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 661px;
+}
