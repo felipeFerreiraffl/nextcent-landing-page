@@ -152,3 +152,50 @@
   gap: 16px;
   max-width: 661px;
 }
+
+.achievements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  padding: 64px 0;
+  background-color: var(--color-neutral-silver);
+}
+
+.achievements .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 408px;
+}
+
+.achievements .heading h2 span {
+  color: var(--color-primary-primary);
+}
+
+.achievements .heading p {
+  color: var(--color-neutral-black);
+}
+
+.counts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 40px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.count img {
+  width: 48px;
+  aspect-ratio: 1 / 1;
+}
+
+.count .content {
+  display: flex;
+  flex-direction: column;
+}
+
