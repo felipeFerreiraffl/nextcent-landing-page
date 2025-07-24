@@ -142,3 +142,24 @@ body {
   text-align: center;
   gap: 8px;
 }
+
+.calender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+  margin: 48px 0;
+}
+
+.calender img {
+  width: 441px;
+  height: 433px;
+}
+
+.calender .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 661px;
+}
