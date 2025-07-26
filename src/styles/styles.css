@@ -359,6 +359,10 @@
   width: 100%;
 }
 
+.footer > * {
+  width: 100%;
+}
+
 .footer .demo {
   display: flex;
   flex-direction: column;
@@ -394,4 +398,10 @@
 .footer .demo button img {
   width: 16px;
   aspect-ratio: 1 / 1;
+}
+
+.footer .contacts {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-neutral-black);
 }
