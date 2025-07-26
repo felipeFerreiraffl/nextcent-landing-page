@@ -173,7 +173,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 72px;
+  gap: 204px;
   padding: 64px 0;
   background-color: var(--color-neutral-silver);
 }
@@ -219,7 +219,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 49px;
+  gap: 110px;
   margin: 48px 0;
 }
 
@@ -352,6 +352,7 @@
 }
 
 .updates .card-container .card .content > p {
+  max-width: 285px;
   font-size: var(--font-headline4-size);
   font-weight: var(--font-headline4-weight);
   color: var(--color-neutral-grey);
