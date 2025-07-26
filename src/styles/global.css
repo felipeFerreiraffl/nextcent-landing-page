@@ -133,6 +133,12 @@ body {
   font-weight: var(--font-body2-weight-medium);
   color: var(--color-neutral-white);
   margin-top: 16px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: var(--color-shade-shade2);
 }
 
 .section-text-container {

@@ -121,6 +121,13 @@
   text-align: center;
   padding: 24px 32px;
   max-width: 299px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.community-content .content:hover {
+  box-shadow: var(--shadow-8px);
+  transform: translateY(-8px);
 }
 
 .community-content .content img {
@@ -138,6 +145,7 @@
   align-items: center;
   justify-content: center;
   gap: 49px;
+  padding: 52px 0;
 }
 
 .unlock img {
@@ -150,7 +158,15 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  max-width: 661px;
+  max-width: 601px;
+}
+
+.unlock .content h2 {
+  max-width: 562px;
+}
+
+.unlock .content p {
+  line-height: 20px;
 }
 
 .achievements {
@@ -220,6 +236,10 @@
   max-width: 661px;
 }
 
+.calender .content p {
+  line-height: 20px;
+}
+
 .costumer {
   display: flex;
   align-items: center;
@@ -245,6 +265,10 @@
   font-weight: var(--font-headline4-weight);
   color: var(--color-primary-primary);
   margin: 16px 0 8px 0;
+}
+
+.costumer .content p {
+  line-height: 20px;
 }
 
 .costumer-clients-container {
@@ -404,4 +428,119 @@
   display: flex;
   align-items: center;
   background-color: var(--color-neutral-black);
+  padding: 64px 0;
+  justify-content: space-around;
+}
+
+.contacts .industry {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contacts .industry .image {
+  width: 191px;
+  height: 30px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.copyright p {
+  color: var(--color-neutral-silver);
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  aspect-ratio: 1 / 1;
+  background-color: rgba(256, 256, 256, 0.1);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.socials a:hover {
+  background-color: rgba(256, 256, 256, 0.3);
+}
+
+.socials a img {
+  width: 16px;
+  height: auto;
+}
+
+.contacts .links {
+  display: flex;
+  gap: 30px;
+}
+
+.contacts .links > * {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contacts .links > * h2 {
+  font-size: var(--font-headline4-size);
+  font-weight: var(--font-headline4-weight);
+  color: var(--color-neutral-white);
+}
+
+.contacts .links > * nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contacts .links > * nav a {
+  font-size: var(--font-body3-size);
+  font-weight: var(--font-body3-weight-regular);
+  color: var(--color-neutral-white);
+  transition: 0.3s ease;
+}
+
+.contacts .links > * nav a:hover {
+  color: var(--color-primary-primary);
+}
+
+.contacts .links .company,
+.contacts .links .support {
+  width: 160px;
+}
+
+.date .field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(256, 256, 256, 0.1);
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.date .field input {
+  width: 100%;
+  font-size: var(--font-body3-size);
+  font-weight: var(--font-body3-weight-regular);
+  color: var(--color-neutral-white);
+}
+
+.date .field input::placeholder {
+  font-size: var(--font-body3-size);
+  font-weight: var(--font-body3-weight-regular);
+  color: var(--color-neutral-silver);
+}
+
+.date .field .icon {
+  cursor: pointer;
+  width: 18px;
+  aspect-ratio: 1 / 1;
 }
