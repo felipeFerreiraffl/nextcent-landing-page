@@ -502,7 +502,7 @@
   gap: 12px;
 }
 
-.contacts .links > * nav a {
+.contacts .links > * nav ul li a {
   font-size: var(--font-body3-size);
   font-weight: var(--font-body3-weight-regular);
   color: var(--color-neutral-white);
