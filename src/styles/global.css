@@ -149,3 +149,41 @@ body {
   gap: 8px;
   max-width: 1100px;
 }
+
+@media (max-width: 884px) {
+  .title {
+    font-size: var(--font-headline2-size);
+  }
+
+  .section-title {
+    font-size: var(--font-headline3-size);
+  }
+
+  .description-title {
+    font-size: var(--font-headline4-size);
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: var(--font-headline3-size);
+  }
+
+  .section-title {
+    font-size: var(--font-headline4-size);
+  }
+
+  .subtitle-regular,
+  .subtitle-medium {
+    font-size: var(--font-body3-size);
+  }
+
+  .description-title {
+    font-size: var(--font-headline4-size);
+  }
+
+  .description-subtitle-regular,
+  .description-subtitle-medium {
+    font-size: var(--font-body4-size);
+  }
+}
